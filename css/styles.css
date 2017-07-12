@@ -1,0 +1,57 @@
+/* content styles*/
+#white {
+  background-color: white;
+}
+#outer {
+  margin-top: 50px;
+}
+.space {
+  margin: 0 30px;
+}
+/*Height classes*/
+.elongated {
+  width: 90%;
+  margin: 20px;
+  padding: 0px;
+  height: 100%;
+}
+.box {
+  height: 20px;
+  width: 100px;
+  background-color: black;
+  margin: 15px;
+  float: right;
+  z-index: 1;
+  margin: 20px;
+}
+.bigbox {
+  height: 60px;
+  width: 80px;
+  background-color: black;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  float: left;
+}
+.hugebox {
+  background-color: black;
+  width: 80%;
+  height: 300px;
+  position: absolute;
+}
+.xs-height {
+  height: 20px;
+  background-color: black;
+}
+.sm-height {
+  height: 60px;
+  background-color: black;
+}
+.md-height {
+  height: 180px;
+  background-color: black;
+
+}
+.lg-height {
+  height: 540px;
+  background-color: black;
+}
