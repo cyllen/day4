@@ -1,9 +1,14 @@
-.white {
+/* content styles*/
+#white {
   background-color: white;
-  position: absolute;
-  margin: 0;
-  padding: 30px;
 }
+#outer {
+  margin-top: 50px;
+}
+.space {
+  margin: 0 30px;
+}
+/*Height classes*/
 .elongated {
   width: 90%;
   margin: 20px;
@@ -32,4 +37,21 @@
   width: 80%;
   height: 300px;
   position: absolute;
+}
+.xs-height {
+  height: 20px;
+  background-color: black;
+}
+.sm-height {
+  height: 60px;
+  background-color: black;
+}
+.md-height {
+  height: 180px;
+  background-color: black;
+
+}
+.lg-height {
+  height: 540px;
+  background-color: black;
 }
